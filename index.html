@@ -97,12 +97,12 @@ a,0,0,0,b,b,b,0,0,b,b,b,0,0,0,a
 a,f,f,f,f,f,f,f,f,f,f,f,f,f,f,a
 a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
 a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
-a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
-a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
-a,h,h,h,h,h,h,h,h,h,h,h,0,h,h,a
-a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
-a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
-d,h,h,h,h,h,h,h,h,h,h,h,h,h,h,c
+a,h,h,e,e,e,e,e,e,e,e,e,e,h,h,a
+a,h,h,e,h,h,h,h,h,h,h,h,e,h,h,a
+a,h,h,e,h,h,h,h,h,h,h,h,e,h,h,a
+a,h,h,e,h,h,h,h,h,h,h,h,e,h,h,a
+a,h,h,e,h,h,h,h,h,h,h,h,e,h,h,a
+d,e,e,e,h,h,h,h,h,h,h,h,e,e,e,c
 a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 NAME room4
 EXT 0,14 2 15,14 FX slide_l
@@ -608,6 +608,59 @@ NAME proj7
 DLG c
 POS 2 9,11
 
+SPR l
+00111100
+01000010
+10000001
+10100101
+10000001
+10111101
+01000010
+00111100
+>
+00111100
+01000010
+10001001
+10100001
+10000101
+10111001
+01000010
+00111100
+NAME se-face
+DLG e
+POS 3 3,8
+
+SPR m
+00111100
+01000010
+10000001
+10101001
+10000101
+10111001
+01000010
+00111100
+>
+00111100
+01000010
+10000001
+10101001
+10000001
+10111001
+01000010
+00111100
+>
+00111100
+01000010
+10000001
+10100101
+10000001
+10111101
+01000010
+00111100
+NAME se-face2
+DLG f
+POS 3 12,8
+
 ITM 0
 00000000
 00000000
@@ -714,6 +767,27 @@ DLG d
   gvsu-cis350-f2020/base/
 """
 NAME proj-more dialog
+
+DLG e
+"""
+{cycle
+  - {printSprite "se-face"}: I AM {printSprite "se-face"}
+  - {printSprite "se-face"}: LOOK UPON MY WORKS AND DESPAIR.
+  - {printSprite "se-face"}: {printSprite "se-face"}
+}
+"""
+NAME se-face dialog
+
+DLG f
+"""
+{cycle
+  - {printSprite "se-face2"}: Don't mind him, he's been working too much.
+  - {printSprite "se-face2"}: Seriously, just write good code and documentation and you'll be fine.
+  - {printSprite "se-face2"}: You'll learn all about that in this class.
+  - {printSprite "se-face2"}: Don't forget to {wvy}relax {wvy}and {rbw}have fun{rbw}!
+}
+"""
+NAME se-face2 dialog
 
 VAR a
 42
