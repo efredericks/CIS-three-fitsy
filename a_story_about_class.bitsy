@@ -1,0 +1,303 @@
+a story about class
+
+# BITSY VERSION 7.6
+
+! ROOM_FORMAT 1
+
+PAL 0
+NAME blueprint
+2,56,203
+122,152,255
+185,193,254
+
+ROOM 0
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,b,b,b,b,0,b,b,b,b,0,b,b,b,b,a
+a,0,0,0,b,0,b,0,0,0,0,b,0,0,b,a
+a,0,b,b,b,0,b,b,b,b,0,b,0,0,b,a
+a,0,0,0,b,0,0,0,0,b,0,b,0,0,b,a
+a,b,b,b,b,0,b,b,b,b,0,b,b,b,b,a
+a,f,f,f,f,f,f,f,f,f,f,f,f,f,f,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,f,f,f,f,f,f,f,f,f,f,f,f,f,f,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,c
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+NAME room1
+ITM 1 12,12
+EXT 15,14 1 0,14 FX slide_r
+PAL 0
+
+ROOM 1
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+NAME room2
+ITM 0 13,13
+EXT 0,14 0 15,14 FX slide_l
+PAL 0
+
+TIL a
+00000000
+00100100
+01111110
+00100100
+00100100
+01111110
+00100100
+00000000
+NAME block
+WAL true
+
+TIL b
+00000000
+00111100
+01111110
+01111110
+01111110
+01111110
+00111100
+00000000
+NAME floor
+
+TIL c
+00000000
+00001000
+00000100
+00000010
+00000010
+00000100
+00001000
+00000000
+>
+00000000
+00011000
+00000100
+00000010
+00000010
+00000100
+00011000
+00000000
+NAME exit-right
+
+TIL d
+00000000
+00010000
+00100000
+01000000
+01000000
+00100000
+00010000
+00000000
+>
+00000000
+00011000
+00100000
+01000000
+01000000
+00100000
+00011000
+00000000
+NAME exit-left
+
+TIL e
+00000000
+00000000
+00000000
+00011000
+00011000
+00000000
+00000000
+00000000
+NAME solid-wall
+WAL true
+
+TIL f
+00000000
+00000000
+00000000
+00000000
+01011010
+00000000
+00000000
+00000000
+NAME separator
+
+SPR A
+00011000
+00011000
+00011000
+00111100
+01111110
+10111101
+00100100
+00100100
+>
+00011000
+00011000
+00111100
+01111110
+10111101
+00100100
+00100100
+00100100
+POS 1 3,12
+
+SPR a
+00000000
+00000000
+01010001
+01110001
+01110010
+00111100
+00111100
+00100100
+>
+00000000
+01010001
+01110001
+01110010
+00111100
+00111100
+00100100
+00100100
+NAME cat
+DLG 0
+POS 0 2,13
+
+SPR b
+00000000
+00111110
+01000010
+01011010
+01000010
+01011010
+01000010
+01111110
+>
+00000000
+00111110
+01000010
+01000010
+01011010
+01000010
+01000010
+01111110
+NAME syllabi
+DLG 4
+POS 0 12,12
+
+SPR c
+00000000
+11011000
+11011000
+01110000
+01110000
+01111110
+00111101
+00100100
+>
+11011000
+11011000
+01110000
+01110000
+01111110
+00111101
+00100100
+00100100
+>
+00000000
+11011000
+11011000
+01110000
+01110000
+01111110
+00111101
+00100100
+NAME dog
+DLG 5
+POS 1 4,12
+
+ITM 0
+00000000
+00000000
+00000000
+00111100
+01100100
+00100100
+00011000
+00000000
+NAME tea
+DLG 1
+
+ITM 1
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME key
+DLG 2
+
+DLG 0
+"""
+{
+  - {item "0"} == 1 ?
+    {printSprite "cat"}: {wvy}TEA!!!{wvy}
+  - else ?
+    {printSprite "cat"}: {wvy}meow?{wvy}
+}
+"""
+NAME cat dialog
+
+DLG 1
+You found a nice warm cup of tea
+NAME tea dialog
+
+DLG 2
+A key! {wvy}What does it open?{wvy}
+NAME key dialog
+
+DLG 4
+"""
+{sequence
+  - {printSprite "syllabi"}: I am the living syllabus!
+  - {printSprite "syllabi"}: I tell you the things to expect in class, {wvy}how neat{wvy}.
+  - {printSprite "syllabi"}: Have you considered reading the {wvy}paper version{wvy}?
+  - {printSprite "syllabi"}: Anyway...
+  - {printSprite "syllabi"}: Homework is due by {rbw}midnight{rbw} the day it is due on {rbw}Blackboard{rbw}.
+  - {printSprite "syllabi"}: Class is {rbw}IN PERSON{rbw} (though I will try to record class in case if you miss it)!
+  - {printSprite "syllabi"}: We'll have 2 exams - a midterm and a final.
+  - {printSprite "syllabi"}: You'll also have a group project!
+  - {printSprite "syllabi"}: Be sure to talk to the group project dog in the next room!
+}
+"""
+NAME syllabi dialog
+
+DLG 5
+I am the group project dog.
+NAME dog dialog
+
+VAR a
+42
+
