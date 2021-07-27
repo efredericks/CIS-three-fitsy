@@ -18,40 +18,83 @@ a,0,b,b,b,0,b,b,b,b,0,b,0,0,b,a
 a,0,0,0,b,0,0,0,0,b,0,b,0,0,b,a
 a,b,b,b,b,0,b,b,b,b,0,b,b,b,b,a
 a,f,f,f,f,f,f,f,f,f,f,f,f,f,f,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,f,f,f,f,f,f,f,f,f,f,f,f,f,f,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,c
+a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
+a,e,e,e,e,e,e,h,h,h,h,h,h,h,h,a
+a,h,h,h,h,e,h,h,h,h,h,h,h,h,h,a
+a,h,h,h,h,e,h,h,h,h,h,h,h,h,h,a
+a,h,h,h,h,e,h,h,h,h,h,h,h,h,h,a
+a,h,h,h,h,e,e,e,e,e,e,e,h,h,h,a
+a,h,h,h,h,e,h,h,h,h,h,e,h,h,h,a
+a,h,h,h,h,h,h,h,h,h,h,e,e,e,e,c
 a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 NAME room1
-ITM 1 12,12
 EXT 15,14 1 0,14 FX slide_r
 PAL 0
 
 ROOM 1
 a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,b,b,b,0,b,b,b,0,b,b,b,0,0,b,a
+a,b,0,b,0,b,0,b,0,b,0,b,0,0,b,a
+a,b,b,b,0,b,b,0,0,b,0,b,0,0,b,a
+a,b,0,0,0,b,0,b,0,b,0,b,0,0,b,a
+a,b,0,0,0,b,0,b,0,b,b,b,0,b,b,a
+a,f,f,f,f,f,f,f,i,f,f,f,f,f,f,a
 a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
 a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
 a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
 a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
 a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
 a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,e,0,0,0,0,0,0,0,0,0,0,a
+d,e,e,e,e,e,e,e,e,e,e,e,e,e,e,c
 a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 NAME room2
-ITM 0 13,13
+ITM 0 2,2
 EXT 0,14 0 15,14 FX slide_l
+EXT 15,14 2 0,14 FX slide_r
+PAL 0
+
+ROOM 2
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,b,b,b,0,b,b,b,0,b,b,b,0,0,b,a
+a,b,0,b,0,b,0,b,0,b,0,b,0,0,b,a
+a,b,b,b,0,b,b,0,0,b,0,b,0,0,b,a
+a,b,0,0,0,b,0,b,0,b,0,b,0,0,b,a
+a,b,0,0,0,b,0,b,0,b,b,b,0,b,b,a
+a,f,f,f,f,f,f,f,f,f,f,f,f,f,f,a
+a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
+a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
+a,h,h,e,e,e,e,e,e,e,e,e,e,h,h,a
+a,h,h,e,e,e,e,e,e,e,e,e,e,h,h,a
+a,h,h,0,e,e,0,e,e,0,e,e,0,h,h,a
+a,h,e,e,e,e,e,e,e,e,e,e,e,e,h,a
+a,h,e,h,h,h,h,h,h,h,h,h,h,e,h,a
+d,e,e,h,h,h,h,h,h,h,h,h,h,e,e,c
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+NAME room3
+EXT 0,14 1 15,14 FX slide_l
+EXT 15,14 3 0,14 FX slide_r
+PAL 0
+
+ROOM 3
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,0,0,0,b,b,b,0,0,b,b,b,0,0,0,a
+a,0,0,0,b,0,0,0,0,b,0,0,0,0,0,a
+a,0,0,0,b,b,b,0,0,b,b,0,0,0,0,a
+a,0,0,0,0,0,b,0,0,b,0,0,0,0,0,a
+a,0,0,0,b,b,b,0,0,b,b,b,0,0,0,a
+a,f,f,f,f,f,f,f,f,f,f,f,f,f,f,a
+a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
+a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
+a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
+a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
+a,h,h,h,h,h,h,h,h,h,h,h,0,h,h,a
+a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
+a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
+d,h,h,h,h,h,h,h,h,h,h,h,h,h,h,c
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+NAME room4
+EXT 0,14 2 15,14 FX slide_l
 PAL 0
 
 TIL a
@@ -127,7 +170,7 @@ TIL e
 00000000
 00000000
 NAME solid-wall
-WAL true
+WAL false
 
 TIL f
 00000000
@@ -139,6 +182,41 @@ TIL f
 00000000
 00000000
 NAME separator
+WAL true
+
+TIL g
+00000000
+01000010
+00100100
+00000000
+00000000
+00100100
+01000010
+00000000
+NAME walkway
+
+TIL h
+00000000
+00000000
+00000000
+00010000
+00001000
+00000000
+00000000
+00000000
+NAME floor2
+
+TIL i
+00000000
+00000000
+00000000
+00000000
+01011010
+00000000
+00000000
+00000000
+NAME separator walk
+WAL false
 
 SPR A
 00011000
@@ -158,7 +236,7 @@ SPR A
 00100100
 00100100
 00100100
-POS 1 3,12
+POS 0 1,8
 
 SPR a
 00000000
@@ -180,7 +258,7 @@ SPR a
 00100100
 NAME cat
 DLG 0
-POS 0 2,13
+POS 0 5,14
 
 SPR b
 00000000
@@ -202,7 +280,7 @@ SPR b
 01111110
 NAME syllabi
 DLG 4
-POS 0 12,12
+POS 0 7,8
 
 SPR c
 00000000
@@ -234,6 +312,290 @@ SPR c
 NAME dog
 DLG 5
 POS 1 4,12
+
+SPR d
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10011001
+10000001
+11111111
+NAME proj1
+DLG 6
+POS 2 3,8
+
+SPR e
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10011001
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+NAME proj2
+DLG 7
+POS 2 6,8
+
+SPR f
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10011001
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+NAME proj3
+DLG 8
+POS 2 9,8
+
+SPR g
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10011001
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+NAME proj4
+DLG 9
+POS 2 12,8
+
+SPR h
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10011001
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+NAME proj5
+DLG a
+POS 2 3,11
+
+SPR i
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10011001
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+NAME proj6
+DLG b
+POS 2 6,11
+
+SPR j
+11111111
+10100101
+10000001
+10011001
+10000001
+11111111
+00011000
+00011000
+>
+11111111
+10000001
+10100101
+10000001
+10011001
+10000001
+11111111
+00011000
+NAME proj-more
+DLG d
+POS 2 12,11
+
+SPR k
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10011001
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+>
+00100100
+11111111
+10000001
+10100101
+10000001
+10111101
+10000001
+11111111
+NAME proj7
+DLG c
+POS 2 9,11
 
 ITM 0
 00000000
@@ -271,7 +633,7 @@ DLG 0
 NAME cat dialog
 
 DLG 1
-You found a nice warm cup of tea
+DM the professor in Discord "nice cuppa tea" for 5 points of extra credit.
 NAME tea dialog
 
 DLG 2
@@ -295,8 +657,52 @@ DLG 4
 NAME syllabi dialog
 
 DLG 5
-I am the group project dog.
+"""
+{cycle
+  - {printSprite "dog"}: I am the group project dog.
+  - {printSprite "dog"}: You should seek out people with {rbw}similar interests{rbw} to you.
+  - {printSprite "dog"}: You are free to create {shk}whatever you want{shk} (within reason).
+  - {printSprite "dog"}: The focus will be on the software engineering behind your project, so be creative!
+  - {printSprite "dog"}: Check out the next room for examples of past projects.
+  - {printSprite "dog"}: I live here so I won't actually be going anywhere, but you don't have to talk to me anymore!
+}
+"""
 NAME dog dialog
+
+DLG 6
+{printSprite "proj1"}: Procedurally-generated space shooter (Godot)
+NAME proj1 dialog
+
+DLG 7
+{printSprite "proj2"}: 1st person horror VR game (Unity)
+NAME proj2 dialog
+
+DLG 8
+{printSprite "proj3"}: Cloud-based pentesting suite.
+NAME proj3 dialog
+
+DLG 9
+{printSprite "proj4"}: Halo clone with multiplayer (Unity)
+NAME proj4 dialog
+
+DLG a
+{printSprite "proj5"}: Disc golf finder using (Arduino/RFID)
+NAME proj5 dialog
+
+DLG b
+{printSprite "proj6"}: 2D shmup (Java / LibGDX)
+NAME proj6 dialog
+
+DLG c
+{printSprite "proj7"}: Role-playing game (RPGMaker)
+NAME proj7 dialog
+
+DLG d
+"""
+{printSprite "proj-more"}: Check out all the {wvy}forked projects{wvy} on the GitHub repo!{pg}https://github.com/
+  gvsu-cis350-f2020/base/
+"""
+NAME proj-more dialog
 
 VAR a
 42
