@@ -36,7 +36,7 @@ a,0,0,0,b,0,0,0,0,b,0,b,0,0,b,a
 a,b,b,b,b,0,b,b,b,b,0,b,b,b,b,a
 a,f,f,f,f,f,f,f,f,f,f,f,f,f,f,a
 a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
-a,e,e,e,e,e,e,h,h,h,h,h,h,h,h,a
+a,b,e,e,e,e,e,h,h,h,h,h,h,h,h,a
 a,h,h,h,h,e,h,h,h,h,h,h,h,h,h,a
 a,h,h,h,h,e,h,h,h,h,h,e,e,h,h,a
 a,h,h,h,h,e,h,h,h,h,h,e,h,h,h,a
@@ -125,15 +125,16 @@ a,0,74,83,76,78,83,74,74,87,78,83,76,96,0,a
 a,f,f,f,f,f,f,f,f,f,f,f,f,f,f,a
 a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
 a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
-a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
-a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
-a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
-a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
-a,h,h,h,h,h,h,h,h,h,h,h,h,h,h,a
-d,h,h,h,h,h,h,h,h,h,h,h,h,h,h,c
+a,h,h,e,e,e,e,e,e,e,e,e,e,e,h,a
+a,h,h,e,h,h,h,h,h,h,h,h,h,e,h,a
+a,h,h,e,h,h,h,h,h,h,h,h,h,e,h,a
+a,h,h,e,h,h,h,h,h,h,h,h,h,e,h,a
+a,h,h,e,h,h,h,h,h,h,h,h,h,e,h,a
+d,e,e,e,h,h,h,h,h,h,h,h,h,e,e,b
 a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 NAME room5
 EXT 0,14 3 15,14 FX slide_l
+END m 15,14
 PAL 1
 
 TIL 70
@@ -981,6 +982,99 @@ NAME logo
 DLG g
 POS 0 13,10
 
+SPR o
+00000000
+01111110
+01000010
+01000010
+01111110
+00011000
+00011000
+00000000
+NAME se1
+DLG h
+POS 4 3,8
+
+SPR p
+00000000
+01111110
+01000010
+01000010
+01111110
+00011000
+00011000
+00000000
+NAME se2
+DLG i
+POS 4 5,8
+
+SPR q
+00000000
+01111110
+01000010
+01000010
+01111110
+00011000
+00011000
+00000000
+NAME se3
+DLG j
+POS 4 7,8
+
+SPR r
+00000000
+01111110
+01000010
+01000010
+01111110
+00011000
+00011000
+00000000
+NAME se4
+DLG k
+POS 4 9,8
+
+SPR s
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR t
+00111100
+01000010
+10000001
+10101001
+10000101
+10111001
+01000010
+00111100
+>
+00111100
+01000010
+10000001
+10101001
+10000001
+10111001
+01000010
+00111100
+>
+00111100
+01000010
+10000001
+10100101
+10000001
+10111101
+01000010
+00111100
+NAME prof-face
+DLG l
+POS 4 12,8
+
 ITM 0
 00000000
 00000000
@@ -1027,15 +1121,15 @@ NAME key dialog
 DLG 4
 """
 {sequence
-  - {printSprite "syllabi"}: I am the living syllabus!
-  - {printSprite "syllabi"}: I tell you the things to expect in class, {wvy}how neat{wvy}.
-  - {printSprite "syllabi"}: Have you considered reading the {wvy}paper version{wvy}?
-  - {printSprite "syllabi"}: Anyway...
-  - {printSprite "syllabi"}: Homework is due by {rbw}midnight{rbw} the day it is due on {rbw}Blackboard{rbw}.
-  - {printSprite "syllabi"}: Class is {rbw}IN PERSON{rbw} (though I will try to record class in case if you miss it)!
-  - {printSprite "syllabi"}: We'll have 2 exams - a midterm and a final.
-  - {printSprite "syllabi"}: You'll also have a group project!
-  - {printSprite "syllabi"}: Be sure to talk to the group project dog in the next room!
+  - {printSprite "syllabi"}: I am the living syllabus! >
+  - {printSprite "syllabi"}: I tell you the things to expect in class, {wvy}how neat{wvy}. >
+  - {printSprite "syllabi"}: Have you considered reading the {wvy}paper version{wvy}? >
+  - {printSprite "syllabi"}: Anyway...  >
+  - {printSprite "syllabi"}: Homework is due by {rbw}midnight{rbw} the day it is due on {rbw}Blackboard{rbw}. >
+  - {printSprite "syllabi"}: Class is {rbw}IN PERSON{rbw} (though I will try to record class in case if you miss it)! >
+  - {printSprite "syllabi"}: We'll have 2 exams - a midterm and a final. >
+  - {printSprite "syllabi"}: You'll also have a group project! >
+  - {printSprite "syllabi"}: Be sure to talk to the group project dog in the next room! 
 }
 """
 NAME syllabi dialog
@@ -1043,11 +1137,11 @@ NAME syllabi dialog
 DLG 5
 """
 {cycle
-  - {printSprite "dog"}: I am the group project dog.
-  - {printSprite "dog"}: You should seek out people with {rbw}similar interests{rbw} to you.
-  - {printSprite "dog"}: You are free to create {shk}whatever you want{shk} (within reason).
-  - {printSprite "dog"}: The focus will be on the software engineering behind your project, so be creative!
-  - {printSprite "dog"}: Check out the next room for examples of past projects.
+  - {printSprite "dog"}: I am the group project dog. >
+  - {printSprite "dog"}: You should seek out people with {rbw}similar interests{rbw} to you. >
+  - {printSprite "dog"}: You are free to create {shk}whatever you want{shk} (within reason). >
+  - {printSprite "dog"}: The focus will be on the software engineering behind your project, so be creative! >
+  - {printSprite "dog"}: Check out the next room for examples of past projects. >
   - {printSprite "dog"}: I live here so I won't actually be going anywhere, but you don't have to talk to me anymore!
 }
 """
@@ -1095,15 +1189,16 @@ DLG e
   - {printSprite "se-face"}: LOOK UPON MY WORKS AND DESPAIR.
   - {printSprite "se-face"}: {printSprite "se-face"}
 }
+
 """
 NAME se-face dialog
 
 DLG f
 """
 {cycle
-  - {printSprite "se-face2"}: Don't mind him, he's been working too much.
-  - {printSprite "se-face2"}: Seriously, just write good code and documentation and you'll be fine.
-  - {printSprite "se-face2"}: You'll learn all about that in this class.
+  - {printSprite "se-face2"}: Don't mind him, he's been working too much. >
+  - {printSprite "se-face2"}: Seriously, just write good code and documentation and you'll be fine. >
+  - {printSprite "se-face2"}: You'll learn all about that in this class. >
   - {printSprite "se-face2"}: Don't forget to {wvy}relax {wvy}and {rbw}have fun{rbw}!
 }
 """
@@ -1112,6 +1207,56 @@ NAME se-face2 dialog
 DLG g
 i am {rbw}logo{rbw} rawr
 NAME logo dialog
+
+DLG h
+"""
+{cycle
+  - {printSprite "se1"}: Software engineering is all about trust. >
+  - {printSprite "se1"}: It is easy to write code.  It is hard to document it. >
+  - {printSprite "se1"}: Users will only see the effects of your code and your documentation, not the code itself.  
+}
+"""
+NAME se1 dialog
+
+DLG i
+"""
+{cycle
+  - {printSprite "se2"}: Software {wvy}artifacts{wvy} are anything you make related to coding. >
+  - {printSprite "se2"}: Test cases, requirements, design decisions, even the code itself. >
+  - {printSprite "se2"}: All these {wvy}things{wvy} help you and your teams write good code!
+}
+
+"""
+NAME se2 dialog
+
+DLG j
+"""
+{cycle
+  - {printSprite "se3"}: Trust means you are doing what you say you're doing. >
+  - {printSprite "se3"}: Your users will not understand code, they will understand {rbw}documentation{rbw}. >
+  - {printSprite "se3"}: They trust that your code does what your documentation says! >
+  - {printSprite "se3"}: And also that the tests you write make sure your code does what your documentation says it does.
+}
+"""
+NAME se3 dialog
+
+DLG k
+"""
+{cycle
+  - {printSprite "se4"}: If you're working on a {wvy}team{wvy}... >
+  - {printSprite "se4"}: documentation will help everybody know what needs to be done. >
+  - {printSprite "se4"}: It's the {shk}circle of life{shk} (software dev).
+}
+"""
+NAME se4 dialog
+
+DLG l
+{printSprite "prof-face"}: See you in class!
+NAME prof-face dialog
+
+DLG m
+{printSprite "prof-face"}: Thanks for playing along!
+NAME ending 1
 
 VAR a
 42
@@ -10005,6 +10150,308 @@ CHAR 255
 010010
 000000
 000000
+</script>
+
+<script>
+/**
+🏃
+@file smooth moves
+@summary ease the player's movement
+@license MIT
+@version 16.0.2
+@requires Bitsy Version: 6.3
+@author Sean S. LeBlanc
+
+@description
+Makes the player avatar ease in between positions instead of moving immediately.
+Speed and easing function are configurable.
+
+HOW TO USE:
+1. Copy-paste this script into a script tag after the bitsy source
+2. Edit hackOptions below as needed
+*/
+this.hacks = this.hacks || {};
+(function (exports, bitsy) {
+'use strict';
+var hackOptions = {
+	// duration of ease in ms
+	duration: 100,
+	// max distance to allow tweens
+	delta: 1.5,
+	// easing function
+	ease: function (t) {
+		t = 1 - ((1 - t) ** 2);
+		return t;
+	},
+};
+
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+bitsy = bitsy || /*#__PURE__*/_interopDefaultLegacy(bitsy);
+
+/**
+ * Helper used to replace code in a script tag based on a search regex.
+ * To inject code without erasing original string, using capturing groups; e.g.
+ * ```js
+ * inject(/(some string)/,'injected before $1 injected after');
+ * ```
+ * @param searcher Regex to search and replace
+ * @param replacer Replacer string/fn
+ */
+function inject(searcher, replacer) {
+    // find the relevant script tag
+    var scriptTags = document.getElementsByTagName('script');
+    var scriptTag;
+    var code = '';
+    for (var i = 0; i < scriptTags.length; ++i) {
+        scriptTag = scriptTags[i];
+        if (!scriptTag.textContent)
+            continue;
+        var matchesSearch = scriptTag.textContent.search(searcher) !== -1;
+        var isCurrentScript = scriptTag === document.currentScript;
+        if (matchesSearch && !isCurrentScript) {
+            code = scriptTag.textContent;
+            break;
+        }
+    }
+    // error-handling
+    if (!code || !scriptTag) {
+        throw new Error('Couldn\'t find "' + searcher + '" in script tags');
+    }
+    // modify the content
+    code = code.replace(searcher, replacer);
+    // replace the old script tag with a new one using our modified code
+    var newScriptTag = document.createElement('script');
+    newScriptTag.textContent = code;
+    scriptTag.insertAdjacentElement('afterend', newScriptTag);
+    scriptTag.remove();
+}
+/**
+ * Helper for getting an array with unique elements
+ * @param  {Array} array Original array
+ * @return {Array}       Copy of array, excluding duplicates
+ */
+function unique(array) {
+    return array.filter(function (item, idx) {
+        return array.indexOf(item) === idx;
+    });
+}
+// Ex: inject(/(names.sprite.set\( name, id \);)/, '$1console.dir(names)');
+/** test */
+function kitsyInject(searcher, replacer) {
+    if (!kitsy.queuedInjectScripts.some(function (script) {
+        return searcher.toString() === script.searcher.toString() && replacer === script.replacer;
+    })) {
+        kitsy.queuedInjectScripts.push({
+            searcher: searcher,
+            replacer: replacer,
+        });
+    }
+    else {
+        console.warn('Ignored duplicate inject');
+    }
+}
+// Ex: before('load_game', function run() { alert('Loading!'); });
+//     before('show_text', function run(text) { return text.toUpperCase(); });
+//     before('show_text', function run(text, done) { done(text.toUpperCase()); });
+function before$1(targetFuncName, beforeFn) {
+    kitsy.queuedBeforeScripts[targetFuncName] = kitsy.queuedBeforeScripts[targetFuncName] || [];
+    kitsy.queuedBeforeScripts[targetFuncName].push(beforeFn);
+}
+// Ex: after('load_game', function run() { alert('Loaded!'); });
+function after$1(targetFuncName, afterFn) {
+    kitsy.queuedAfterScripts[targetFuncName] = kitsy.queuedAfterScripts[targetFuncName] || [];
+    kitsy.queuedAfterScripts[targetFuncName].push(afterFn);
+}
+function applyInjects() {
+    kitsy.queuedInjectScripts.forEach(function (injectScript) {
+        inject(injectScript.searcher, injectScript.replacer);
+    });
+}
+function applyHooks(root) {
+    var allHooks = unique(Object.keys(kitsy.queuedBeforeScripts).concat(Object.keys(kitsy.queuedAfterScripts)));
+    allHooks.forEach(applyHook.bind(this, root || window));
+}
+function applyHook(root, functionName) {
+    var functionNameSegments = functionName.split('.');
+    var obj = root;
+    while (functionNameSegments.length > 1) {
+        obj = obj[functionNameSegments.shift()];
+    }
+    var lastSegment = functionNameSegments[0];
+    var superFn = obj[lastSegment];
+    var superFnLength = superFn ? superFn.length : 0;
+    var functions = [];
+    // start with befores
+    functions = functions.concat(kitsy.queuedBeforeScripts[functionName] || []);
+    // then original
+    if (superFn) {
+        functions.push(superFn);
+    }
+    // then afters
+    functions = functions.concat(kitsy.queuedAfterScripts[functionName] || []);
+    // overwrite original with one which will call each in order
+    obj[lastSegment] = function () {
+        var returnVal;
+        var args = [].slice.call(arguments);
+        var i = 0;
+        function runBefore() {
+            // All outta functions? Finish
+            if (i === functions.length) {
+                return returnVal;
+            }
+            // Update args if provided.
+            if (arguments.length > 0) {
+                args = [].slice.call(arguments);
+            }
+            if (functions[i].length > superFnLength) {
+                // Assume funcs that accept more args than the original are
+                // async and accept a callback as an additional argument.
+                return functions[i++].apply(this, args.concat(runBefore.bind(this)));
+            }
+            // run synchronously
+            returnVal = functions[i++].apply(this, args);
+            if (returnVal && returnVal.length) {
+                args = returnVal;
+            }
+            return runBefore.apply(this, args);
+        }
+        return runBefore.apply(this, arguments);
+    };
+}
+/**
+@file kitsy-script-toolkit
+@summary Monkey-patching toolkit to make it easier and cleaner to run code before and after functions or to inject new code into script tags
+@license WTFPL (do WTF you want)
+@author Original by mildmojo; modified by Sean S. LeBlanc
+*/
+var kitsy = (window.kitsy = window.kitsy || {
+    queuedInjectScripts: [],
+    queuedBeforeScripts: {},
+    queuedAfterScripts: {},
+    inject: kitsyInject,
+    before: before$1,
+    after: after$1,
+    /**
+     * Applies all queued `inject` calls.
+     *
+     * An object that instantiates an class modified via injection will still refer to the original class,
+     * so make sure to reinitialize globals that refer to injected scripts before calling `applyHooks`.
+     */
+    applyInjects,
+    /** Apples all queued `before`/`after` calls. */
+    applyHooks,
+});
+
+var hooked = kitsy.hooked;
+if (!hooked) {
+	kitsy.hooked = true;
+	var oldStartFunc = bitsy.startExportedGame;
+	bitsy.startExportedGame = function doAllInjections() {
+		// Only do this once.
+		bitsy.startExportedGame = oldStartFunc;
+
+		// Rewrite scripts
+		kitsy.applyInjects();
+
+		// recreate the script and dialog objects so that they'll be
+		// referencing the code with injections instead of the original
+		bitsy.scriptModule = new bitsy.Script();
+		bitsy.scriptInterpreter = bitsy.scriptModule.CreateInterpreter();
+
+		bitsy.dialogModule = new bitsy.Dialog();
+		bitsy.dialogRenderer = bitsy.dialogModule.CreateRenderer();
+		bitsy.dialogBuffer = bitsy.dialogModule.CreateBuffer();
+
+		// Hook everything
+		kitsy.applyHooks();
+
+		// Start the game
+		bitsy.startExportedGame.apply(this, arguments);
+	};
+}
+
+/** @see kitsy.inject */
+kitsy.inject;
+/** @see kitsy.before */
+var before = kitsy.before;
+/** @see kitsy.after */
+var after = kitsy.after;
+
+
+
+
+
+// smooth move
+var tweens = {};
+var sprites = {};
+
+function addTween(spr, fromX, fromY, toX, toY) {
+	if (Math.abs(toX - fromX) + Math.abs(toY - fromY) > hackOptions.delta) {
+		delete tweens[spr];
+	} else {
+		var t = tweens[spr] = tweens[spr] || {};
+		t.fromX = fromX;
+		t.fromY = fromY;
+		t.toX = toX;
+		t.toY = toY;
+		t.start = bitsy.prevTime;
+	}
+}
+before('onready', function () {
+	tweens = {};
+	sprites = {};
+});
+
+// listen for changes in sprite positions to add tweens
+before('update', function () {
+	Object.values(bitsy.sprite).forEach((spr) => {
+		if (spr.room === bitsy.curRoom) {
+			var s = sprites[spr.id] = sprites[spr.id] || {};
+			s.x = spr.x;
+			s.y = spr.y;
+		} else {
+			delete sprites[spr.id];
+		}
+	});
+});
+
+function addTweens() {
+	Object.entries(sprites).forEach(function (entry) {
+		var spr = bitsy.sprite[entry[0]];
+		var pos = entry[1];
+		if (pos.x !== spr.x || pos.y !== spr.y) {
+			addTween(spr.id, pos.x, pos.y, spr.x, spr.y);
+		}
+	});
+}
+after('updateInput', addTweens);
+after('update', addTweens);
+// before drawing, update sprite positions to tweened values
+before('drawRoom', function () {
+	Object.entries(tweens).forEach(function (entry) {
+		var tween = entry[1];
+		var t = hackOptions.ease(Math.min(1, (bitsy.prevTime - tween.start) / hackOptions.duration));
+		var sprite = bitsy.sprite[entry[0]];
+		sprite.x = tween.fromX + (tween.toX - tween.fromX) * t;
+		sprite.y = tween.fromY + (tween.toY - tween.fromY) * t;
+	});
+});
+// after drawing, update sprite positions back to normal
+after('drawRoom', function () {
+	Object.entries(tweens).forEach(function (entry) {
+		var tween = entry[1];
+		var sprite = bitsy.sprite[entry[0]];
+		sprite.x = tween.toX;
+		sprite.y = tween.toY;
+	});
+});
+
+exports.hackOptions = hackOptions;
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+}(this.hacks.smooth_moves = this.hacks.smooth_moves || {}, window));
 </script>
 
 </head>
