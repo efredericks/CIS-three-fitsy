@@ -1094,7 +1094,7 @@ DLG 0
   - {item "0"} == 1 ?
     {printSprite "cat"}: {wvy}TEA!!!{wvy}
   - else ?
-    {printSprite "cat"}: {wvy}meow?{wvy}
+    {printSprite "cat"}: {wvy}meow!{wvy} (you can bump into things more than once!)
 }
 """
 NAME cat dialog
